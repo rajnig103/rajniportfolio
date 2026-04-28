@@ -4,6 +4,12 @@ import { motion } from 'framer-motion';
 const Portfolio = () => {
     const projects = [
         {
+            title: 'Holiday Wholesale App',
+            desc: 'React Native B2B Dropshipping and Wholesale e-commerce mobile application.',
+            img: '/assets/holiday_app.png',
+            link: 'https://play.google.com/store/apps/details?id=com.holiday.ecommerce'
+        },
+        {
             title: 'Global Poker Heads Up',
             desc: 'Real-time multiplayer React Native poker application and custom game API backend.',
             img: '/assets/poker.png',
