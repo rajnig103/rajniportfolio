@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Portfolio | Creative Developer</title>
+    <meta name="description" content="Integrative portfolio showcasing About Us, Projects, Career Journey, and Contact information with a premium aesthetic.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="bg-canvas"></canvas>
+
+    <nav>
+        <div class="nav-pill">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#journey">Journey</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <h1 class="gradient-text">Crafting Digital <br> Experiences</h1>
+            <p class="hero-sub">I build high-performance web applications with a focus on premium design, seamless interactions, and scalable architecture.</p>
+            <a href="#portfolio" class="btn btn-primary">View My Work</a>
+        </div>
+    </section>
+
+    <section id="about" class="reveal">
+        <div class="container">
+            <h2 class="section-title">About Us</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>Driven by a passion for technical excellence and aesthetic precision, we specialize in delivering bespoke digital solutions. Our approach combines creative storytelling with cutting-edge technology to create products that not only work flawlessly but also leave a lasting impression.</p>
+                    <p style="margin-top: 1rem;">Whether it's a complex enterprise dashboard or a minimalist brand showcase, we bring the same level of dedication and craftsmanship to every pixel.</p>
+                </div>
+                <div class="stats-grid">
+                    <div class="stat-card glass">
+                        <span class="stat-number">5+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat-card glass">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">Projects Completed</span>
+                    </div>
+                    <div class="stat-card glass">
+                        <span class="stat-number">30+</span>
+                        <span class="stat-label">Happy Clients</span>
+                    </div>
+                    <div class="stat-card glass">
+                        <span class="stat-number">12</span>
+                        <span class="stat-label">Industry Awards</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="journey" class="reveal">
+        <div class="container">
+            <h2 class="section-title">My Journey</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass">
+                        <span class="timeline-date">2023 - Present</span>
+                        <h3>Senior Full Stack Developer</h3>
+                        <p>Leading the development of high-scale React applications and mentoring junior developers on design system implementations.</p>
+                        <div class="tech-tags">
+                            <span class="tag">Next.js</span>
+                            <span class="tag">TypeScript</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">AWS</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass">
+                        <span class="timeline-date">2021 - 2023</span>
+                        <h3>UI/UX Engineer</h3>
+                        <p>Focused on bridge between design and code, implementing complex animations and micro-interactions for fintech platforms.</p>
+                        <div class="tech-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Framer Motion</span>
+                            <span class="tag">GSAP</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass">
+                        <span class="timeline-date">2019 - 2021</span>
+                        <h3>Frontend Developer</h3>
+                        <p>Started my journey by building responsive web components and optimizing performance for e-commerce websites.</p>
+                        <div class="tech-tags">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="reveal">
+        <div class="container">
+            <h2 class="section-title">Portfolio</h2>
+            <div class="portfolio-grid">
+                <div class="project-card glass">
+                    <img src="assets/project1.png" alt="Project 1" class="project-img">
+                    <div class="project-info">
+                        <h3>Lumina Dashboard</h3>
+                        <p>A high-performance analytics platform.</p>
+                    </div>
+                </div>
+                <div class="project-card glass">
+                    <img src="assets/project2.png" alt="Project 2" class="project-img">
+                    <div class="project-info">
+                        <h3>EcoSphere App</h3>
+                        <p>Sustainability tracking for global brands.</p>
+                    </div>
+                </div>
+                <div class="project-card glass">
+                    <img src="assets/project3.png" alt="Project 3" class="project-img">
+                    <div class="project-info">
+                        <h3>Nexus AI</h3>
+                        <p>Next-gen AI assistant interface.</p>
+                    </div>
+                </div>
+                <div class="project-card glass">
+                    <img src="assets/project4.png" alt="Project 4" class="project-img">
+                    <div class="project-info">
+                        <h3>Velox Pay</h3>
+                        <p>Ultra-fast crypto payment gateway.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="reveal">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-container glass" style="padding: 3rem;">
+                <form id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer style="text-align: center; padding: 4rem 0; color: var(--text-secondary); border-top: 1px solid var(--glass-border);">
+        <div class="container">
+            <p>&copy; 2026 Creative Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
