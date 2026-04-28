@@ -5,6 +5,7 @@ const Skills = () => {
     const skills = [
         { name: 'Node.js', level: '90%' },
         { name: 'Javascript', level: '95%' },
+        { name: 'React Native', level: '90%' },
         { name: 'React.js', level: '90%' },
         { name: 'Next.js', level: '85%' },
         { name: 'Python', level: '80%' },
@@ -19,6 +20,7 @@ const Skills = () => {
     const techIcons = [
         { name: 'Node.js', color: '#339933' },
         { name: 'Javascript', color: '#F7DF1E' },
+        { name: 'React Native', color: '#61DAFB' },
         { name: 'React', color: '#61DAFB' },
         { name: 'Next.js', color: '#000000' },
         { name: 'Python', color: '#3776AB' },
@@ -74,7 +76,7 @@ const Skills = () => {
                 <div className="proficiency-section">
                     <h2 className="section-title" style={{ marginTop: '4rem' }}>Proficiency</h2>
                     <div className="proficiency-grid">
-                        {skills.slice(0, 6).map((skill, index) => (
+                        {skills.slice(0, 8).map((skill, index) => (
                             <div key={index} className="proficiency-item">
                                 <div className="proficiency-info">
                                     <span>{skill.name}</span>

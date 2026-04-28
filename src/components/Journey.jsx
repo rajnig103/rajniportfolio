@@ -7,7 +7,7 @@ const Journey = () => {
             date: '2023 - Present',
             title: 'Senior Full Stack Developer',
             desc: 'Leading the development of high-performance real-time applications using Next.js and Node.js. Specializing in scalable architecture and real-time communication.',
-            tags: ['Next.js', 'React.js', 'Node.js', 'PostgreSQL', 'Socket.io']
+            tags: ['React Native', 'Next.js', 'React.js', 'Node.js', 'PostgreSQL', 'Socket.io']
         },
         {
             date: '2020 - 2023',
@@ -29,8 +29,8 @@ const Journey = () => {
                 <h2 className="section-title">My Journey</h2>
                 <div className="timeline">
                     {experiences.map((exp, index) => (
-                        <motion.div 
-                            key={index} 
+                        <motion.div
+                            key={index}
                             className="timeline-item"
                             initial={{ opacity: 0, x: -30 }}
                             whileInView={{ opacity: 1, x: 0 }}
