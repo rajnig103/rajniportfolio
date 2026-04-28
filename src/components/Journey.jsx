@@ -6,20 +6,20 @@ const Journey = () => {
         {
             date: '2023 - Present',
             title: 'Senior Full Stack Developer',
-            desc: 'Leading the development of high-scale React applications and mentoring junior developers on design system implementations.',
-            tags: ['Next.js', 'TypeScript', 'Node.js', 'AWS']
+            desc: 'Leading the development of high-performance real-time applications using Next.js and Node.js. Specializing in scalable architecture and real-time communication.',
+            tags: ['Next.js', 'React.js', 'Node.js', 'PostgreSQL', 'Socket.io']
         },
         {
-            date: '2021 - 2023',
-            title: 'UI/UX Engineer',
-            desc: 'Focused on bridging between design and code, implementing complex animations and micro-interactions for fintech platforms.',
-            tags: ['React', 'Framer Motion', 'GSAP']
+            date: '2020 - 2023',
+            title: 'Full Stack Developer',
+            desc: 'Developed robust backend systems and intuitive frontends. Focused on database optimization and high-concurrency websocket connections.',
+            tags: ['Python', 'MongoDB', 'MySQL', 'Websocket', 'Javascript']
         },
         {
-            date: '2019 - 2021',
-            title: 'Frontend Developer',
-            desc: 'Started my journey by building responsive web components and optimizing performance for e-commerce websites.',
-            tags: ['HTML5', 'CSS3', 'JavaScript']
+            date: '2017 - 2020',
+            title: 'Software Engineer',
+            desc: 'Started the journey by building communication platforms and integrating SIP protocols for enterprise-level VOIP solutions.',
+            tags: ['SIP', 'Javascript', 'REST APIs', 'CSS3', 'HTML5']
         }
     ];
 
