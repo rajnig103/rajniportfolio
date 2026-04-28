@@ -4,6 +4,12 @@ import { motion } from 'framer-motion';
 const Portfolio = () => {
     const projects = [
         {
+            title: 'Global Poker Heads Up',
+            desc: 'Real-time multiplayer React Native poker application and custom game API backend.',
+            img: '/assets/poker.png',
+            link: 'https://play.google.com/store/apps/details?id=com.global.poker.headsup.online'
+        },
+        {
             title: 'LiftMyTraffic',
             desc: 'A premium traffic growth and marketing analytics platform.',
             img: '/assets/traffic.png',
