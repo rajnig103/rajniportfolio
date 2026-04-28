@@ -5,7 +5,7 @@ const Navbar = () => {
 
     useEffect(() => {
         const handleScroll = () => {
-            const sections = ['home', 'about', 'journey', 'portfolio', 'contact'];
+            const sections = ['home', 'about', 'skills', 'journey', 'portfolio', 'contact'];
             let current = 'home';
             
             for (const section of sections) {
@@ -24,6 +24,7 @@ const Navbar = () => {
     const navLinks = [
         { name: 'Home', href: '#home' },
         { name: 'About', href: '#about' },
+        { name: 'Skills', href: '#skills' },
         { name: 'Journey', href: '#journey' },
         { name: 'Portfolio', href: '#portfolio' },
         { name: 'Contact', href: '#contact' }
