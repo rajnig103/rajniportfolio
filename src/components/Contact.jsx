@@ -27,34 +27,30 @@ const Contact = () => {
                 <h2 className="section-title">Get In Touch</h2>
                 <motion.div 
                     className="contact-container glass" 
-                    style={{ maxWidth: '600px', margin: '0 auto', padding: '3rem' }}
                     initial={{ opacity: 0, scale: 0.95 }}
                     whileInView={{ opacity: 1, scale: 1 }}
                     viewport={{ once: true }}
                 >
                     <form onSubmit={handleSubmit}>
-                        <div className="form-group" style={{ marginBottom: '1.5rem' }}>
+                        <div className="form-group">
                             <input 
                                 type="text" 
                                 placeholder="Your Name" 
                                 required 
-                                style={{ width: '100%', padding: '1rem', background: 'rgba(255,255,255,0.02)', border: '1px solid var(--glass-border)', borderRadius: '12px', color: '#fff' }}
                             />
                         </div>
-                        <div className="form-group" style={{ marginBottom: '1.5rem' }}>
+                        <div className="form-group">
                             <input 
                                 type="email" 
                                 placeholder="Your Email" 
                                 required 
-                                style={{ width: '100%', padding: '1rem', background: 'rgba(255,255,255,0.02)', border: '1px solid var(--glass-border)', borderRadius: '12px', color: '#fff' }}
                             />
                         </div>
-                        <div className="form-group" style={{ marginBottom: '1.5rem' }}>
+                        <div className="form-group">
                             <textarea 
                                 rows="5" 
                                 placeholder="Your Message" 
                                 required 
-                                style={{ width: '100%', padding: '1rem', background: 'rgba(255,255,255,0.02)', border: '1px solid var(--glass-border)', borderRadius: '12px', color: '#fff' }}
                             ></textarea>
                         </div>
                         <button 
@@ -62,9 +58,8 @@ const Contact = () => {
                             className="btn btn-primary" 
                             disabled={isSubmitting}
                             style={{ 
-                                width: '100%', 
                                 background: status === 'Message Sent!' ? '#22c55e' : 'var(--accent-color)',
-                                transition: 'all 0.3s ease'
+                                width: '100%'
                             }}
                         >
                             {status}
